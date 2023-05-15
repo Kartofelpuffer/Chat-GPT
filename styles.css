@@ -1,1 +1,61 @@
+body {
+	background-color: #000000;
+	color: #ffffff;
+}
+
+nav {
+	background-color: #000000;
+	color: #ffffff;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+nav li {
+	float: left;
+}
+
+nav li a {
+	display: block;
+	padding: 10px;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+nav li a:hover {
+	background-color: #333333;
+}
+
+header {
+	text-align: center;
+	padding: 50px;
+}
+
+.game-icons {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: 50px 0;
+}
+
+.game-icons li {
+	list-style-type: none;
+	margin: 20px;
+	text-align: center;
+}
+
+.game-icons li img {
+	width: 100px;
+	height: 100px;
+}
+
+.game-icons li a {
+	display: block;
+	color: #ffffff;
+	text-decoration: none;
+}
 
