@@ -1,61 +1,57 @@
 body {
-	background-color: #000000;
-	color: #ffffff;
+  background-image: url(j.jpg);
+  background-size: cover;
+  color: black;
 }
 
-nav {
-	background-color: #000000;
-	color: #ffffff;
+.navbar {
+  background-color: black;
+  overflow: hidden;
 }
 
-nav ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
+.navbar a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
 }
 
-nav li {
-	float: left;
-}
-
-nav li a {
-	display: block;
-	padding: 10px;
-	color: #ffffff;
-	text-decoration: none;
-}
-
-nav li a:hover {
-	background-color: #333333;
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
 }
 
 header {
-	text-align: center;
-	padding: 50px;
+  text-align: center;
+  padding: 100px;
 }
 
 .game-icons {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	margin: 50px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.game-icons li {
-	list-style-type: none;
-	margin: 20px;
-	text-align: center;
+.game-icons figure {
+  margin: 20px;
+  text-align: center;
 }
 
-.game-icons li img {
-	width: 100px;
-	height: 100px;
+.game-icons img {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
 }
 
-.game-icons li a {
-	display: block;
-	color: #ffffff;
-	text-decoration: none;
+.game-icons figcaption {
+  font-size: 18px;
 }
 
+footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
